@@ -34,6 +34,22 @@ body {
   pointer-events: none;
 }
 
+#intro h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+#intro p {
+  font-size: 18px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+#intro .small {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
 #sun {
   position: absolute;
   top: 15%;
@@ -56,8 +72,8 @@ body {
   background: #f5f5f5;
   box-shadow: 0 0 40px #ffffff;
   opacity: 0;
-  transition: opacity 1.5s ease, transform 1.5s ease;
   transform: translateY(100px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
 }
 
 body.night #sun {
@@ -111,6 +127,7 @@ body.night #intro {
     transform: translateX(0);
     opacity: 0.95;
   }
+
   to {
     transform: translateX(120vw);
     opacity: 0;
@@ -122,6 +139,7 @@ body.night #intro {
     transform: translateY(180px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -180,9 +198,31 @@ body.night #intro {
   cursor: pointer;
 }
 
+#stall-name {
+  margin-bottom: 10px;
+}
+
+#stall-description {
+  margin-bottom: 8px;
+}
+
+#stall-category {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#route-info {
+  font-weight: bold;
+  color: #d32f2f;
+}
+
 body.night #stall-panel {
   background: #151b2e;
   color: white;
+}
+
+body.night #route-info {
+  color: #ff6b6b;
 }
 
 body.night .leaflet-tile {
