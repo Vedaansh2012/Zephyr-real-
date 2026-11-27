@@ -1,0 +1,27 @@
+{
+  "schoolName": "Sanskriti The Gurukul",
+  "mapBounds": [
+    [26.6130, 91.4350],
+    [26.6150, 91.4370]
+  ],
+  "startZoom": 18,
+  "minZoom": 17,
+  "maxZoom": 20,
+
+  "nodes": {
+    "main-gate": [26.6140, 91.4360],
+    "junction-1": [26.6142, 91.4362],
+    "junction-2": [26.6144, 91.4364],
+    "food-court": [26.6146, 91.4366],
+    "games-area": [26.6148, 91.4362],
+    "main-stage": [26.6146, 91.4358]
+  },
+
+  "paths": [
+    ["main-gate", "junction-1"],
+    ["junction-1", "junction-2"],
+    ["junction-2", "food-court"],
+    ["junction-2", "games-area"],
+    ["games-area", "main-stage"]
+  ]
+}
