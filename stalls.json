@@ -1,0 +1,23 @@
+[
+  {
+    "id": "food-court",
+    "name": "Food Court",
+    "description": "Snacks, drinks, and student-made food.",
+    "category": "Food",
+    "node": "food-court"
+  },
+  {
+    "id": "games-area",
+    "name": "Games Area",
+    "description": "Fun games, prizes, and activities.",
+    "category": "Games",
+    "node": "games-area"
+  },
+  {
+    "id": "main-stage",
+    "name": "Main Stage",
+    "description": "Music, dance, and performances.",
+    "category": "Performance",
+    "node": "main-stage"
+  }
+]
